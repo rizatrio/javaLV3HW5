@@ -50,7 +50,7 @@ public class Car implements Runnable {
 
             if (!raceWinner) {
                 raceWinner = true;
-                System.out.println(this.name + " Победитель гонки!!!!!!!!!!!!!!!");
+                System.out.println(this.name + " WIN!");
             }
 
             lock.unlock();
